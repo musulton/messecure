@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mes"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Masukan Kode Akses"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/et_passwordSignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColorHint="@android:color/black"
+            android:inputType="textPassword"
+            android:soundEffectsEnabled="true"
+            android:textColor="@android:color/black"
+            android:textColorLink="?attr/colorBackgroundFloating" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/button_signinSignin"
+                style="@style/ButtonGeneral"
+                android:textColor="@android:color/white"
+                android:text="Masuk" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

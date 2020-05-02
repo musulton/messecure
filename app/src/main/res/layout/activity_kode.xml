@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kode">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_marginTop="230dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="18dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_passwordSignup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kode Akses Baru"
+                android:inputType="textPassword"
+                android:gravity="center_horizontal" />
+            <EditText
+                android:id="@+id/et_passwordSignup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:hint="Konfirmasi Kode Akses"
+                android:inputType="textPassword"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/button_signupSignup"
+                style="@style/ButtonGeneral"
+                android:text="Ganti Kode" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

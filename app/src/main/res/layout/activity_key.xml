@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Key"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kunci Publik"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/pkEdit"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:hint="P.K"
+            android:padding="17dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kunci Privat"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/skEdit"
+            android:layout_height="120dp"
+            android:layout_width="300dp"
+            android:padding="17dp"
+            android:editable="false"
+            android:hint="S.K" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/keygenButton"
+            style="@style/ButtonGeneral"
+            android:text="Hasilkan Acak" />
+
+        <Button
+            android:id="@+id/defkeyButton"
+            style="@style/ButtonGeneral"
+            android:text="Kunci Default" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/viewkeyButton"
+            style="@style/ButtonGeneral"
+            android:text="Lihat Kunci" />
+
+        <Button
+            android:id="@+id/setkeyButton"
+            style="@style/ButtonGeneral"
+            android:text="Set Kunci" />
+
+    </LinearLayout>
+
+</LinearLayout>

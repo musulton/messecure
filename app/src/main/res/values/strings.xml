@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Messecure</string>
+    <string name="app_about">
+        Messecure merupakan aplikasi pengaman pertukaran SMS yang dapat menjaga isi pesan agar aman dikirim.
+        Keamanan messecure dalam versi pertama ini dirancang dengan menggunakan metode kriptografi RSA untuk penyandian pesan SMS.
+        \n\nAplikasi keamanan seperti messecure sangat diperlukan dalam menjaga setiap pengiriman dan penerimaan suatu informasi dalam setiap komunikasi.
+        \nUntuk itu messecure dibuat sebagai salah satu solusi untuk pengamanan informasi dalam pertukaran SMS.
+    </string>
+    <string name="app_contact">
+        Email : muhammad.sulton@live.com\nFacebook : facebook.com/musulthon\nInstagram : @musulton
+    </string>
+    <string name="app_bacapesan">Menu pesan masuk dan pesan terkirim digunakan untuk membuka dan men-dekripsi pesan enkripsi messecure. Sebelum dapat men-dekripsi pesan, diharuskan set dulu kunci rahasia yang ekuivalen terhadap kunci publik dari pesan yang akan dekripsi.</string>
+    <string name="app_buatpesan">Menu kirim pesan digunakan untuk membuat dan mengirim pesan rahasia. Agar dapat difungsikan diharuskan set dulu kunci publik pada menu set kunci agar pesan dapat dienkripsi kemudian dikirim. Pesan yang dapat dikirim tidak lebih dari 64 karakter.</string>
+    <string name="app_setkunci">Menu set kunci digunakan untuk men-set kunci yang nantinya digunakan untuk mengirim dan membuka pesan messecure. Anda bisa menggunakan kunci default yang telah disediakan messecure, atau me-regenerate kunci secara acak dan otomatis, dan atau anda juga dapat men-set kunci secara manual.</string>
+    <string name="app_setkode">Menu set kode digunakan untuk merubah kode akses yang telah ditentukan, yang nantinya digunakan sebagai akses masuk kedalam aplikasi messecure.</string>
+    <string name="checkbox">com.musulton.droid.sharedreferenced.checkbox</string>
+    <string name="pubkey">com.musulton.droid.sharedreferenced.pubkey</string>
+    <string name="prikey">com.musulton.droid.sharedreferenced.prikey</string>
+    <string name="password">com.musulton.droid.sharedreferenced.password</string>
+    <!-- Berhubungan dengan form login dan register -->
+    <string name="label_signin">Sign In</string>
+    <string name="label_signup">Sign Up</string>
+    <string name="label_logout">Log Out</string>
+    <string name="label_user">Username</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+</resources>
