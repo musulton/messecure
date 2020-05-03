@@ -19,8 +19,9 @@ Aplikasi akan melakukan pengkodean (encode) pesan sebelum dikirim oleh sistem pe
 ke Pusat Layanan SMS (SMS Center) operator sebelum akhirnya dikirim ke tujuan/penerima. Pesan tersebut harus diterjemahkan terlebih dahulu sebelum dapat dibaca.
 
 ## Langkah-langkah yang harus dipenuhi sebelum mengirim pesan
-1. Pengirim harus menentukan 2 kunci terlebih dahulu, diantaranya yaitu kunci public dan private. Kunci private digunakan pengirim untuk pengkodean (encode) pesan sebelum dikirim.
-2. Penerima harus mendapatkan kunci public dari pengirim. Kunci public tersebut digunakan untuk menafsirkan kode (decode) pada pesan.
+1. Pengirim dan penerima harus menggunakan aplikasi ini untuk mengirim dan membuka pesan.
+2. Pengirim harus menentukan 2 kunci terlebih dahulu, diantaranya yaitu kunci public dan private. Kunci private digunakan pengirim untuk pengkodean (encode) pesan sebelum dikirim.
+3. Penerima harus mendapatkan kunci public dari pengirim. Kunci public tersebut digunakan untuk menafsirkan kode (decode) pada pesan.
 
 ## Pengembangan
 Aplikasi dibuat untuk memenuhi kelulusan Tugas Akhir saya di Program Studi Teknik Informatika Universitas Muhammadiyah Sukabumi pada tahun 2018 lalu. 
