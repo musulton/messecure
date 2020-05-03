@@ -15,13 +15,13 @@ entah itu ketika proses transmisi data atau ketika pesan sudah tersimpan di SMS 
 3. Pesan yang dapat dikirim terbatas, tidak lebih dari 100 karakter.
 
 ## Cara kerja
-Aplikasi akan melakukan pengkodean (encode) pesan sebelum dikirim oleh sistem perpesanan pada ponsel. Kemudian pesan yang telah di-kodekan ditransmisikan dan dikirim 
-ke Pusat Layanan SMS (SMS Center) operator sebelum akhirnya dikirim ke tujuan/penerima. Pesan tersebut harus diterjemahkan terlebih dahulu sebelum dapat dibaca.
+Aplikasi akan meng-enkripsi pesan, kemudian pesan itu di-kodekan lagi (encode PDU) oleh sistem perpesanan ponsel tadi sebelum ditransmisikan dan dikirim 
+ke Pusat Layanan SMS (SMS Center) operator, hingga pada akhirnya dikirim ke tujuan/penerima. Pesan tersebut harus diterjemahkan (dekripsi) terlebih dahulu sebelum dapat dibaca.
 
 ## Langkah-langkah yang harus dipenuhi sebelum mengirim pesan
 1. Pengirim dan penerima harus menggunakan aplikasi ini untuk mengirim dan membuka pesan.
-2. Pengirim harus menentukan 2 kunci terlebih dahulu, diantaranya yaitu kunci public dan private. Kunci private digunakan pengirim untuk pengkodean (encode) pesan sebelum dikirim.
-3. Penerima harus mendapatkan kunci public dari pengirim. Kunci public tersebut digunakan untuk menafsirkan kode (decode) pada pesan.
+2. Pengirim harus menentukan 2 kunci terlebih dahulu, diantaranya yaitu kunci public dan private. Kunci private digunakan pengirim untuk meng-enkripsi pesan sebelum dikirim.
+3. Penerima harus mendapatkan kunci public dari pengirim. Kunci public tersebut digunakan untuk men-dekripsi pesan.
 
 ## Pengembangan
 Aplikasi dibuat untuk memenuhi kelulusan Tugas Akhir saya di Program Studi Teknik Informatika Universitas Muhammadiyah Sukabumi pada tahun 2018 lalu. 
