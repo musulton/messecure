@@ -26,4 +26,4 @@ ke Pusat Layanan SMS (SMS Center) operator sebelum akhirnya dikirim ke tujuan/pe
 ## Pengembangan
 Aplikasi dibuat untuk memenuhi kelulusan Tugas Akhir saya di Program Studi Teknik Informatika Universitas Muhammadiyah Sukabumi pada tahun 2018 lalu. 
 Aplikasi ini masih dapat dikembangkan karena dibuat dengan sederhana dan adanya kekurangan pada batasan jumlah karakter pesan yang dapat dikirim.
-Apabila anda ingin mengembangkan aplikasi ini untuk tugas kuliah ataupun lainya, silahkan fork/download.
+Saya akan senang apabila anda ingin mengembangkan aplikasi ini untuk tugas kuliah ataupun lainnya, untuk itu silahkan di fork atau di download.
